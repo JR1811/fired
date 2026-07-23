@@ -33,8 +33,6 @@ Using datapacks you can define your own item ignition change. In the `<namespace
 place your own `.json` files. You can define `item - item` and `item tag - item` changes.
 Check out the [examples](src/main/resources/data/fired/ignition).
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/E1KoDBQsGBw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
 <div style="text-align: center;">
 <br>
 <a href="https://fabricmc.net/"><img
