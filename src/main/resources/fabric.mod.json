@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "fired",
+	"version": "${version}",
+	"name": "Fired",
+	"description": "A fabric mod providing utilities and reworks fire related topics",
+	"authors": [
+		"DEV - ShiroJR1811",
+		"ART - ShiroJR1811"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "LGPL-3.0-only",
+	"icon": "assets/fired/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.shirojr.fired.Fired"
+		],
+		"client": [
+			"net.shirojr.fired.FiredClient"
+		],
+		"fabric-datagen": [
+			"net.shirojr.fired.FiredDataGenerator"
+		]
+	},
+	"mixins": [
+		"fired.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}

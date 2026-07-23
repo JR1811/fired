@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "package": "net.shirojr.fired.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "CampfireBlockMixin",
+    "CandleBlockMixin",
+    "ItemStackMixin",
+    "access.BucketItemAccess"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+	}
+}
