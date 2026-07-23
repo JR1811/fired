@@ -85,6 +85,9 @@ public class IgnitionTranslationDatapack implements SimpleSynchronousResourceRel
         var files = manager.findResources(DIRECTORY, filePath -> filePath.getPath().endsWith(".json") && filePath.getPath().contains(DIRECTORY));
         for (var fileEntry : files.entrySet()) {
             Identifier fileId = fileEntry.getKey();
+            if (fileId.equals(Fired.id("ignition/examples.json"))) {
+                continue;
+            }
             try {
                 InputStream inputStream = fileEntry.getValue().getInputStream();
                 JsonObject json = JsonParser.parseReader(new InputStreamReader(inputStream)).getAsJsonObject();
