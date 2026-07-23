@@ -6,8 +6,8 @@ Add new QoL features to campfires, candles, torches and other fire-related Minec
 
 - use sticks on lit campfires to light up torches
 - use torches on campfires and candles to light them up
-- hot items burn users if they keep them without protection in their inventory
-- etc.
+- hot items burn users if they keep them without protection in their inventory. A new Glove Item has been added, but you can add your own entries with item tags
+- and many more
 
 ## Configuration
 
